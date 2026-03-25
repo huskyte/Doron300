@@ -1,4 +1,2 @@
-# Klipper-Backup 💾 
-Klipper backup script for manual or automated GitHub backups 
-
-This backup is provided by [Klipper-Backup](https://github.com/Staubgeborener/Klipper-Backup).
+# Doron300 or Venture
+I will try to consolidate all the files and data I have right here in this branch. The current  config of the machine is in main.
