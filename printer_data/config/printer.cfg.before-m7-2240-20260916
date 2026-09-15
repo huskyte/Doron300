@@ -100,14 +100,11 @@ pressure_advance_smooth_time: 0.040
 #pid_ki: 0.379
 #pid_kd: 170.963
 
-[tmc2240 extruder]
-cs_pin: PD11
-spi_software_mosi_pin: PE14
-spi_software_miso_pin: PE13
-spi_software_sclk_pin: PE12
-run_current: 0.400
+[tmc2209 extruder]
+uart_pin: PD11
+run_current: 0.800
 hold_current: 0.200
-rref: 12300
+sense_resistor: 0.11
 stealthchop_threshold: 999999
 
 [verify_heater extruder]

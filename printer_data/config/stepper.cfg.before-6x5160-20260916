@@ -23,19 +23,18 @@ homing_speed: 50
 homing_retract_dist: 3
 second_homing_speed: 10
 
-[tmc5160 stepper_a]
+[tmc2240 stepper_a]
 cs_pin: PE7
 spi_software_mosi_pin: PE14
 spi_software_miso_pin: PE13
 spi_software_sclk_pin: PE12
 #spi_bus: spi4
 # diag0_pin: PA0
-run_current: 0.400
-sense_resistor: 0.075
+run_current: 1.200
 # hold_current: 0.200 
 # sense_resistor: 0.11
 stealthchop_threshold: 0
-# rref: 12300
+rref: 12300
 
 
 
@@ -58,19 +57,18 @@ rotation_distance: 40
 microsteps: 16                      
 
 
-[tmc5160 stepper_a1]
+[tmc2240 stepper_a1]
 cs_pin: PA15
 spi_software_mosi_pin: PE14
 spi_software_miso_pin: PE13
 spi_software_sclk_pin: PE12
 #spi_bus: spi4
 # diag0_pin: PA0
-run_current: 0.400
-sense_resistor: 0.075
+run_current: 1.200
 hold_current: 0.200 
 # sense_resistor: 0.11
 stealthchop_threshold: 0
-# rref: 12300
+rref: 12300
 
 
 
@@ -119,19 +117,18 @@ endstop_pin: ^PA2
 #arm_length = 350
 
 
-[tmc5160 stepper_b]
+[tmc2240 stepper_b]
 cs_pin: PE15
 spi_software_mosi_pin: PE14
 spi_software_miso_pin: PE13
 spi_software_sclk_pin: PE12
 #spi_bus: spi4
 # diag0_pin: PA0
-run_current: 0.400
-sense_resistor: 0.075
+run_current: 1.200
 hold_current: 0.200 
 # sense_resistor: 0.11
 stealthchop_threshold: 0
-# rref: 12300
+rref: 12300
 
 
 
@@ -153,19 +150,18 @@ rotation_distance: 40
 microsteps: 16                      
 
 
-[tmc5160 stepper_b1]
+[tmc2240 stepper_b1]
 cs_pin: PC14
 spi_software_mosi_pin: PE14
 spi_software_miso_pin: PE13
 spi_software_sclk_pin: PE12
 #spi_bus: spi4
 # diag0_pin: PA0
-run_current: 0.400
-sense_resistor: 0.075
+run_current: 1.200
 hold_current: 0.200 
 # sense_resistor: 0.11
 stealthchop_threshold: 0
-# rref: 12300
+rref: 12300
 
 
 #[tmc2209 stepper_b1]
@@ -190,19 +186,18 @@ endstop_pin: ^PA3
 #arm_length = 350
 
 
-[tmc5160 stepper_c]
+[tmc2240 stepper_c]
 cs_pin: PD10
 spi_software_mosi_pin: PE14
 spi_software_miso_pin: PE13
 spi_software_sclk_pin: PE12
 #spi_bus: spi4
 # diag0_pin: PA0
-run_current: 0.400
-sense_resistor: 0.075
+run_current: 1.200
 hold_current: 0.200 
 # sense_resistor: 0.11
 stealthchop_threshold: 0
-# rref: 12300
+rref: 12300
 
 #[tmc2209 stepper_c]
 #uart_pin: PD10
@@ -223,19 +218,18 @@ rotation_distance: 40
 microsteps: 16                      
 
 
-[tmc5160 stepper_c1]
+[tmc2240 stepper_c1]
 cs_pin: PC15
 spi_software_mosi_pin: PE14
 spi_software_miso_pin: PE13
 spi_software_sclk_pin: PE12
 #spi_bus: spi4
 # diag0_pin: PA0
-run_current: 0.400
-sense_resistor: 0.075
+run_current: 1.200
 hold_current: 0.200 
 # sense_resistor: 0.11
 stealthchop_threshold: 0
-# rref: 12300
+rref: 12300
 
 
 #[tmc2209 stepper_c1]
