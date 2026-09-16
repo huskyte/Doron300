@@ -15,7 +15,6 @@ step_pin: PE11
 dir_pin: !PE10                       
 enable_pin: !PE9                   
 rotation_distance: 39               
-full_steps_per_rotation: 200
 microsteps: 16                      
 endstop_pin: ^PA1
 #position_endstop: 255
@@ -56,7 +55,6 @@ step_pin: PD12
 dir_pin: !PC4
 enable_pin: !PE8
 rotation_distance: 39               
-full_steps_per_rotation: 200
 microsteps: 16                      
 
 
@@ -115,7 +113,6 @@ step_pin: PD14
 dir_pin: !PD13
 enable_pin: !PD15
 rotation_distance: 39
-full_steps_per_rotation: 200
 microsteps: 16 
 endstop_pin: ^PA2 
 #position_endstop: 255
@@ -153,7 +150,6 @@ step_pin: PE6
 dir_pin: !PC13
 enable_pin: !PE5
 rotation_distance: 39               
-full_steps_per_rotation: 200
 microsteps: 16                      
 
 
@@ -189,7 +185,6 @@ dir_pin: !PB12
 enable_pin: !PD9
 microsteps: 16
 rotation_distance: 39
-full_steps_per_rotation: 200
 endstop_pin: ^PA3 
 #position_endstop: 255
 #arm_length = 350
@@ -225,7 +220,6 @@ step_pin: PE2
 dir_pin: !PE4
 enable_pin: !PE3
 rotation_distance: 39               
-full_steps_per_rotation: 200
 microsteps: 16                      
 
 
