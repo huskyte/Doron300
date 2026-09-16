@@ -20,9 +20,9 @@ microsteps: 16
 endstop_pin: ^PA1
 #position_endstop: 255
 #arm_length = 350 
-homing_speed: 10
+homing_speed: 50
 homing_retract_dist: 3
-second_homing_speed: 5
+second_homing_speed: 10
 
 [tmc5160 stepper_a]
 cs_pin: PE7
@@ -31,8 +31,7 @@ spi_software_miso_pin: PE13
 spi_software_sclk_pin: PE12
 #spi_bus: spi4
 # diag0_pin: PA0
-run_current: 0.800
-hold_current: 0.400
+run_current: 0.400
 sense_resistor: 0.075
 # hold_current: 0.200 
 # sense_resistor: 0.11
@@ -68,9 +67,9 @@ spi_software_miso_pin: PE13
 spi_software_sclk_pin: PE12
 #spi_bus: spi4
 # diag0_pin: PA0
-run_current: 0.800
+run_current: 0.400
 sense_resistor: 0.075
-hold_current: 0.400
+hold_current: 0.200 
 # sense_resistor: 0.11
 stealthchop_threshold: 0
 # rref: 12300
@@ -130,9 +129,9 @@ spi_software_miso_pin: PE13
 spi_software_sclk_pin: PE12
 #spi_bus: spi4
 # diag0_pin: PA0
-run_current: 0.800
+run_current: 0.400
 sense_resistor: 0.075
-hold_current: 0.400
+hold_current: 0.200 
 # sense_resistor: 0.11
 stealthchop_threshold: 0
 # rref: 12300
@@ -165,9 +164,9 @@ spi_software_miso_pin: PE13
 spi_software_sclk_pin: PE12
 #spi_bus: spi4
 # diag0_pin: PA0
-run_current: 0.800
+run_current: 0.400
 sense_resistor: 0.075
-hold_current: 0.400
+hold_current: 0.200 
 # sense_resistor: 0.11
 stealthchop_threshold: 0
 # rref: 12300
@@ -203,9 +202,9 @@ spi_software_miso_pin: PE13
 spi_software_sclk_pin: PE12
 #spi_bus: spi4
 # diag0_pin: PA0
-run_current: 0.800
+run_current: 0.400
 sense_resistor: 0.075
-hold_current: 0.400
+hold_current: 0.200 
 # sense_resistor: 0.11
 stealthchop_threshold: 0
 # rref: 12300
@@ -237,9 +236,9 @@ spi_software_miso_pin: PE13
 spi_software_sclk_pin: PE12
 #spi_bus: spi4
 # diag0_pin: PA0
-run_current: 0.800
+run_current: 0.400
 sense_resistor: 0.075
-hold_current: 0.400
+hold_current: 0.200 
 # sense_resistor: 0.11
 stealthchop_threshold: 0
 # rref: 12300
