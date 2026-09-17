@@ -35,8 +35,8 @@
 log_statistics: False
 log_config_file_at_startup: False
 log_bed_mesh_at_startup: False
-# Temperature limits are enforced for all heaters.
-temp_ignore_limits: False
+# TEMPORARY DURING BUILD ONLY: remove before energizing any heater.
+temp_ignore_limits: True
 autosave_includes: True
 
 ########################################
